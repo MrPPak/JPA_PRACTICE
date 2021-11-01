@@ -35,7 +35,7 @@ public class ItemController {
         book.setIsbn(form.getIsbn());
 
         itemService.saveItem(book);
-        return"redirect:/";
+        return"redirect:/items";
     }
 
     @GetMapping("/items")
