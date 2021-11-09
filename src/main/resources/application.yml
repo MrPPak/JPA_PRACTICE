@@ -12,6 +12,7 @@ spring:
       hibernate:
         #show_sql: true #이것은 sout으로 프린트
         format_sql : true
+        default_batch_fetch_size: 900
 
 logging:
   level:
